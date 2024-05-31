@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+/* Navigation Bar Styles */
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main Content Styles */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 1000px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Chat Container Styles */
+.chat-container {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.chat-container input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.chat-container .ai-response {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Task List Styles */
+.task-list {
+  width: 50%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px dashed #ddd;
+}
+
+.task-list li input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.task-list li.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* Calendar View Styles (Placeholder) */
+.calendar-view {
+  width: 50%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  /* Add styles for your chosen calendar library here */
+}
+
+/* Information Panel Styles (Placeholder) */
+.information-panel {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Recommendation Card Styles */
+.recommendation-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
